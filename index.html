@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Space+Mono&display=swap"
+    rel="stylesheet">
+</head>
+<style>
+  body {
+    font-family: 'Space Mono', monospace;
+  }
+
+  footer {
+    font-family: 'Montserrat', sans-serif;
+  }
+</style>
+
+<body>
+  <div class="container mx-auto w-full h-screen">
+    <nav class="flex items-center font-semibold h-[3.5rem] px-4 md:px-0">
+      <p>404 NOT FOUND</p>
+    </nav>
+    <div class="flex flex-col md:h-[calc(100%-7rem)] md:flex-row md:space-x-10">
+      <div class="flex items-center justify-center flex-1 px-10 h-1/2 md:h-full">
+        <img src="./Scarecrow.png" alt="">
+      </div>
+      <div class="flex items-center justify-center flex-1 h-1/2 md:h-full">
+        <div class="px-8">
+          <h1 class="font-bold text-[3rem] pb-4 md:text-[4rem] py-4">I have bad news for you</h1>
+          <p class="text-2xl w-full xl:w-2/3 leading-relaxed py-4">
+            The page you are looking for might be removed or is temporarily unavailable
+          </p>
+          <button class="bg-gray-900 text-white px-10 py-6 mt-4">BACK TO HOMEPAGE</button>
+        </div>
+      </div>
+    </div>
+    <footer class="flex items-center justify-center h-[3.5rem] text-sm">Created by - </footer>
+  </div>
+</body>
+
+</html>
